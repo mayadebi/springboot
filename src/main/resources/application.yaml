@@ -1,13 +1,16 @@
 #配置端口号  默认8080
 server:
-  port: 8080
+  port: 8081
 
 spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:mysql://localhost:3306/ssm?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/xiaoshuo?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
+  security:
+    user:
+      password: 123456
 #配置日志输出
 mybatis-plus:
   type-aliases-package: com.fzy.xiaoshuo.entity

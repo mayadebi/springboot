@@ -68,7 +68,7 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/ssm?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC");
+        dsc.setUrl("jdbc:mysql://localhost:3306/xiaoshuo?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("123456");
